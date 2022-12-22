@@ -1,0 +1,23 @@
+<a href="{{ post.url }}">
+    <li class="main-list-item">
+        <div class="main-list-item__image">
+            {% if post.thumbnail %}
+            <img src="{{ post.thumbnail }}" alt="thumbnail">
+            {% else %}
+            <img src="/images/no_image.png" alt="no_image">
+            {% endif %}
+        </div>
+        <div class="main-list-item__content">
+            {% if post.group %}
+            <p class="main-list-item__group">{{ post.group }}</p>
+            {% endif %}
+            <h4 class="main-list-item__title"><b>{{ post.title }}</b></h4>
+            <p>{{ post.date | date: "%B %d, %Y" }}</p>
+        </div>
+        {% if post.new %}
+        <div class="main-list-item__right-menu">
+            <span class="main-list-item__new-text"><b>N</b></span>
+        </div>
+        {% endif %}
+    </li>
+</a>
