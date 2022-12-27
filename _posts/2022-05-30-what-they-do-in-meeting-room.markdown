@@ -1,9 +1,10 @@
 ---
 layout: post
-headTitle: "2022-05-30-what-they-do-in-meeting-room.markdown"
+headTitle: "2022-05-30-what-they-do-in-meeting-room"
 title:  "회의실에서 뭘 하는가"
 thumbnail: "./../images/devkyungsoo/cartoon53/cartoon53_thumbnail.png"
 group: "데브경수"
+prevurl: "/devkyungsoo/2022/05/10/root-coding"
 nexturl: "/devkyungsoo/2022/08/29/what-to-do-after-retirement"
 date:   2022-05-30 21:30:26 +0900
 categories: devkyungsoo 
