@@ -4,6 +4,7 @@ headTitle: "2022-05-10-root-coding"
 title:  "루트코딩 1"
 thumbnail: "./../images/devkyungsoo/cartoon52/cartoon52_thumbnail.png"
 group: "데브경수"
+prevurl: "/devkyungsoo/2022/04/21/programmer-character"
 nexturl: "/devkyungsoo/2022/05/30/what-they-do-in-meeting-room"
 date:   2022-05-10 21:30:26 +0900
 categories: devkyungsoo
