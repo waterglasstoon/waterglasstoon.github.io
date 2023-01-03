@@ -4,6 +4,7 @@ headTitle: "2022-04-21-programmer-character"
 title:  "개발자 캐릭터"
 thumbnail: "./../images/devkyungsoo/cartoon51/cartoon51_thumbnail.png"
 group: "데브경수"
+prevurl: "/devkyungsoo/2022/03/31/work-from-home"
 nexturl: "/devkyungsoo/2022/05/10/root-coding"
 date:   2022-04-21 21:30:26 +0900
 categories: devkyungsoo
