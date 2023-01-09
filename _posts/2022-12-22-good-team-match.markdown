@@ -4,8 +4,8 @@ headTitle: "devkyungsoo-2022-12-22-good-team-match"
 title:  "팀 조합"
 thumbnail: "./../images/devkyungsoo/cartoon60/cartoon60_thumbnail.png"
 prevurl: "/devkyungsoo/2022/12/01/zeroglot-programming"
+nexturl: "/devkyungsoo/2023/01/05/if-i-become-ceo"
 group: "데브경수"
-new: true
 date:   2022-12-22 21:30:26 +0900
 categories: devkyungsoo 
 ---
