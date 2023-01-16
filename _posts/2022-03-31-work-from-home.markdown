@@ -4,6 +4,7 @@ headTitle: "2022-03-31-work-from-home"
 title:  "비재택 활성화 방안"
 thumbnail: "./../images/devkyungsoo/cartoon50/cartoon50_thumbnail.png"
 group: "데브경수"
+prevurl: "/devkyungsoo/2022/03/14/developer-totem"
 nexturl: "/devkyungsoo/2022/04/21/programmer-character"
 date:   2022-03-31 21:30:26 +0900
 categories: devkyungsoo
