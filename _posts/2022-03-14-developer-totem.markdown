@@ -4,6 +4,7 @@ headTitle: "2022-03-14-developer-totem"
 title:  "민간신앙"
 thumbnail: "./../images/devkyungsoo/cartoon49/cartoon49_thumbnail.png"
 group: "데브경수"
+prevurl: "/devkyungsoo/2022/02/21/nofun-coding"
 nexturl: "/devkyungsoo/2022/03/31/work-from-home"
 date:   2022-03-14 21:30:26 +0900
 categories: devkyungsoo
