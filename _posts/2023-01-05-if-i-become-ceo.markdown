@@ -4,8 +4,8 @@ headTitle: "devkyungsoo-2023-01-05-if-i-become-ceo"
 title:  "사장이 되는 상상"
 thumbnail: "./../images/devkyungsoo/cartoon61/cartoon61_thumbnail.png"
 prevurl: "/devkyungsoo/2022/12/22/good-team-match"
+nexturl: "/devkyungsoo/2023/01/19/ai-coding"
 group: "데브경수"
-new: true
 date:   2023-01-05 21:30:26 +0900
 categories: devkyungsoo 
 ---
