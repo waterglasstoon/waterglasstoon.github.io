@@ -1,0 +1,404 @@
+/*
+ *  ___
+ * /\_ \
+ * \//\ \      __      ___   __  __    ___     ___
+ *   \ \ \   /'__`\  /' _ `\/\ \/\ \  / __`\ /' _ `\
+ *    \_\ \_/\ \_\.\_/\ \/\ \ \ \_\ \/\ \_\ \/\ \/\ \
+ *    /\____\ \__/.\_\ \_\ \_\/`____ \ \____/\ \_\ \_\
+ *    \/____/\/__/\/_/\/_/\/_/`/___/> \/___/  \/_/\/_/
+ *                               /\___/
+ *                               \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo.
+ */
+
+
+/*
+ * Contents
+ *
+ * Global resets
+ * Masthead
+ * Sidebar
+ * Slide effect
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+
+
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+
+/* Prevent scroll on narrow devices */
+html,
+body {
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+html {
+  font-family: 'Nanum Gothic', Helvetica, "Apple SD Gothic Neo", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nanum Gothic', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #313131;
+  letter-spacing: -.025rem;
+}
+
+div {
+  article{
+    h2{
+      a{
+        font-family: 'Nanum Gothic', serif;
+      }
+    }
+  }
+}
+article{
+  div{
+    header{
+      h1{
+        font-family: 'Nanum Gothic', serif;
+      }
+    }
+  }
+}
+article{
+  div{
+    section{
+      h2{
+        font-family: 'Nanum Gothic', serif;
+      }
+    }
+  }
+}
+div{
+  article{
+    div{
+      a{
+        font-family: 'Nanum Gothic', serif;
+      }
+    }
+  }
+}
+
+/*
+ * Wrapper
+ *
+ * The wrapper is used to position site content when the sidebar is toggled. We
+ * use an outter wrap to position the sidebar without interferring with the
+ * regular page content.
+ */
+
+.wrap {
+  position: relative;
+  width: 100%;
+}
+
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+
+.container {
+  max-width: 28rem;
+}
+@media (min-width: 38em) {
+  .container {
+    max-width: 32rem;
+  }
+}
+@media (min-width: 56em) {
+  .container {
+    max-width: 38rem;
+  }
+}
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+
+.masthead {
+  padding-top:    2rem;
+  padding-bottom: 0.5rem;
+}
+.masthead-title {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: #505050;
+  text-align: center;
+}
+.masthead-title a {
+  color: #505050;
+}
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0;
+}
+
+.masthead-thumbnail {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.masthead-name {
+  width: auto;
+  height: 80px;
+}
+
+@media (max-width: 48em) {
+  .masthead-title {
+    text-align: center;
+  }
+  //.masthead-title small {
+  //  display: none;
+  //}
+}
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+
+.page,
+.post {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+/* Blog post or page title */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030;
+}
+.page-title,
+.post-title {
+  margin-top: 0;
+}
+
+/* Meta data line below post title */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+}
+
+/* Related posts */
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee;
+}
+.related-posts {
+  padding-left: 0;
+  list-style: none;
+}
+.related-posts h3 {
+  margin-top: 0;
+}
+.related-posts li small {
+  font-size: 75%;
+  color: #999;
+}
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+.related-posts li a:hover small {
+  color: inherit;
+}
+
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+
+.pagination {
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  color: #ccc;
+  text-align: center;
+}
+
+/* Pagination items can be `span`s or `a`s */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee;
+}
+.pagination-item:first-child {
+  margin-bottom: -1px;
+}
+
+/* Only provide a hover state for linked pagination items */
+a.pagination-item:hover {
+  background-color: #f5f5f5;
+}
+
+@media (min-width: 30em) {
+  .pagination {
+    margin: 3rem 0;
+  }
+  .pagination-item {
+    float: left;
+    width: 50%;
+  }
+  .pagination-item:first-child {
+    margin-bottom: 0;
+    border-top-left-radius:    4px;
+    border-bottom-left-radius: 4px;
+  }
+  .pagination-item:last-child {
+    margin-left: -1px;
+    border-top-right-radius:    4px;
+    border-bottom-right-radius: 4px;
+  }
+}
+
+
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
+ * on the right side.
+ */
+
+.layout-reverse .sidebar {
+  left: auto;
+  right: -14rem;
+}
+.layout-reverse .sidebar-toggle {
+  left: auto;
+  right: 1rem;
+}
+
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(-14rem);
+  -ms-transform: translateX(-14rem);
+  transform: translateX(-14rem);
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ref-comment {
+  font-size:10pt;
+  color: grey;
+  text-align: center;
+}
+
+
+/*
+ * Main Topnav tabs
+ *
+ */
+
+.post-nav{
+  display:table;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.post-nav a {
+  color: black;
+  padding: 10px;
+}
+
+.post-nav__left{
+  display:table-cell;
+  text-align: left;
+  width:33.33vw;
+  color: grey;
+}
+
+.post-nav__center{
+  display:table-cell;
+  text-align: center;
+  width:33.33vw;
+  color: grey;
+}
+
+.post-nav__right{
+  display:table-cell;
+  text-align: right;
+  width:33.33vw;
+  color: grey;
+}
+
+.topnav {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align:center;
+}
+
+.topnav ul {
+  display:inline-block;
+  list-style:none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.topnav li {
+  float: left;
+  display:inline;
+}
+
+* html .topnav ul { /* Target IE6 */
+  display:inline;
+}
+*+html .topnav ul { /* Target IE7 */
+  display:inline;
+}
+
+.topnav a {
+  color: #555555;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  padding:12px 15px; /* variable width */
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #ddddaa;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.coupang-info {
+  font-size: 12px;
+}

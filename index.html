@@ -1,0 +1,47 @@
+---
+layout: default
+og:
+image: 'my-photo.png'
+type: 'image/jpeg'
+width: '400'
+height: '400'
+---
+<div class="masthead">
+    <div class="container">
+        <div class="masthead-title">
+            <a href="/" title="Home">
+                <div>
+                    <img class="masthead-thumbnail" src="{{ site.thumbnail }}" alt="thumbnail">
+                    <img class="masthead-name" src="{{ site.titleimg }}" alt="title img">
+                </div>
+            </a>
+            <p>
+                <small>{{ site.description }}</small>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="home">
+<!--    <div class="topnav">-->
+<!--        <ul id="home-top-nav">-->
+<!--            <li data-tabs="posts" data-tab="posts-all"><a href="#"><span><b>All</b></span></a></li>-->
+<!--            <li data-tabs="posts" data-tab="posts-devkyungsoo"><a href="#"><span><b>DevKyungsoo</b></span></a></li>-->
+<!--        </ul>-->
+<!--    </div>-->
+    <div id="posts">
+        <ul id="posts-all" class="main-list">
+            {% for post in site.posts %}
+            {% if post.layout != "none" %}
+            {% include mainpost.html post=post %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+<!--        <ul id="posts-devkyungsoo" class="main-list hide">-->
+<!--            {% for post in site.posts %}-->
+<!--            {% if post.layout != "none" and post.categories contains "devkyungsoo" %}-->
+<!--            {% include mainpost.html post=post %}-->
+<!--            {% endif %}-->
+<!--            {% endfor %}-->
+<!--        </ul>-->
+    </div>
+</div>

@@ -1,0 +1,21 @@
+---
+layout: post
+headTitle: "devkyungsoo-2023-01-19-ai-coding"
+title:  "AI코딩"
+thumbnail: "./../images/devkyungsoo/cartoon62/cartoon62_thumbnail.png"
+prevurl: "/devkyungsoo/2023/01/05/if-i-become-ceo"
+group: "데브경수"
+new: true
+date:   2023-01-19 21:30:26 +0900
+categories: devkyungsoo
+---
+<img src="/images/devkyungsoo/cartoon62/cartoon62_1.png" width="100%" title="cartoon_image" alt="AI 코딩이 발전했다"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_2.png" width="100%" title="cartoon_image" alt="나중에 인간 코드를 AI가 놀릴듯"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_3.png" width="100%" title="cartoon_image" alt="100프로 수제작 코드는 없어지나"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_4.png" width="100%" title="cartoon_image" alt="근데 다 AI가 만드는건 비효율적"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_5.png" width="100%" title="cartoon_image" alt="연결하고 고치는건 여전히 인간"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_6.png" width="100%" title="cartoon_image" alt="Pilot이 아닌 Copilot"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_7.png" width="100%" title="cartoon_image" alt="근 미래의 모습은 메카"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_8.png" width="100%" title="cartoon_image" alt="하지만 로봇세를 매겨야 할듯"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_9.png" width="100%" title="cartoon_image" alt="러다이트 운동을 벌일순 없을듯"/>
+<img src="/images/devkyungsoo/cartoon62/cartoon62_10.png" width="100%" title="cartoon_image" alt="당분간은 비슷할 테니 그냥 열심히 살자"/>

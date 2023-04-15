@@ -1,0 +1,21 @@
+---
+layout: post
+headTitle: "devkyungsoo-2022-10-19-human-bug"
+title:  "휴먼버그"
+thumbnail: "./../images/devkyungsoo/cartoon57/cartoon57_thumbnail.png"
+prevurl: "/devkyungsoo/2022/10/04/not-recommended-2"
+nexturl: "/devkyungsoo/2022/11/10/things-happen-on-page-load-1"
+group: "데브경수"
+date:   2022-10-19 21:30:26 +0900
+categories: devkyungsoo 
+---
+<img src="/images/devkyungsoo/cartoon57/cartoon57_1.png" width="100%" title="cartoon_image" alt="컴퓨터 버그보다 심각한 휴먼버그 경험담"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_2.png" width="100%" title="cartoon_image" alt="머릿속에서 정한 일 순서가 꼬여서 실행될 때가 있다"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_3.png" width="100%" title="cartoon_image" alt="한번은 운전할 때 노래를 부르면서 가는데"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_4.png" width="100%" title="cartoon_image" alt="클라이막스에서 눈을 잠깐 감았다가 화들짝 놀라서 다시 뜬 적 있다"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_5.png" width="100%" title="cartoon_image" alt="운전 작업과 노래 작업이 눈이라는 공유 자원을 쓰는데 그걸 잘못한 것"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_6.png" width="100%" title="cartoon_image" alt="눈썹이 움직이면 귀도 같이 움직이는 버그가 있다"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_7.png" width="100%" title="cartoon_image" alt="버그는 아니지만 데모의 저주가 나에게도 똑같이 일어난다"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_8.png" width="100%" title="cartoon_image" alt="버그는 아니지만 UX를 개선해야 했던 순간이 있었다"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_9.png" width="100%" title="cartoon_image" alt="서로 타입이 달라서 문제였다"/>
+<img src="/images/devkyungsoo/cartoon57/cartoon57_10.png" width="100%" title="cartoon_image" alt="이렇게 내가 겪었던 휴먼버그를 말해봤다"/>

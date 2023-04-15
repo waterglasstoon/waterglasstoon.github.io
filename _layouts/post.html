@@ -1,0 +1,65 @@
+---
+layout: default
+---
+
+<div class="masthead">
+    <div class="container">
+        <div class="masthead-title">
+            <a href="/" title="Home">
+                <div>
+                    <img class="masthead-thumbnail" src="{{ site.thumbnail }}" alt="{{ page.title }}">
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<article itemscope itemtype="http://schema.org/Article">
+    <div class="post">
+        <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
+        <p class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}"
+                                                           title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{%
+            unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
+        <p class="post-date" itemprop="datePublished" content="{{ page.date | date: " %Y-%m-%d" }}">{{ page.date |
+        date_to_string }}</p>
+        {{ content }}
+    </div>
+</article>
+<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+    new PartnersCoupang.G({"id":655455,"template":"carousel","trackingCode":"AF7057825","width":"600","height":"140"});
+</script>
+<p class="coupang-info">이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.</p>
+<!--<img src="/images/devkyungsoo/devkyungsoo_footer.png" width="100%" title="cartoon_image" alt="@waterglasstoon 에도 놀러오세요"/>-->
+<div class="post-nav">
+    <br />
+    <div class="post-nav__left">
+        {% if page.prevurl %}
+        <a href="{{ page.prevurl }}"><i class="fa fa-angle-left"></i></a>
+        {% endif %}
+    </div>
+    <div class="post-nav__center">
+        <a href="/"><i class="fa-solid fa-house-chimney"></i></a>
+    </div>
+    <div class="post-nav__right">
+    {% if page.nexturl %}
+    <a href="{{ page.nexturl }}"><i class="fa fa-angle-right"></i></a>
+    {% endif %}
+    </div>
+</div>
+<giscus-widget
+        id="giscus-comments"
+        repo="waterglasstoon/waterglasstoon-main-giscus"
+        repoid="R_kgDOIqkcYQ"
+        category="Announcements"
+        categoryid="DIC_kwDOIqkcYc4CTOsV"
+        mapping="title"
+        strict="0"
+        reactionsenabled="1"
+        emitmetadata="0"
+        inputposition="top"
+        theme="preferred_color_scheme"
+        lang="ko"
+        loading="lazy"
+        crossorigin="anonymous"
+        async
+></giscus-widget>
